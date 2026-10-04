@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>अम्बे गिफ्ट एंड सुहाग भंडार - बिलासपुर</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #fcf8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        /* Header Banner */
+        header {
+            background: linear-gradient(135deg, #b71c1c, #880e4f);
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* Navigation & Quick Actions */
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-call {
+            background-color: #ffb300;
+            color: #000;
+        }
+        .btn-whatsapp {
+            background-color: #25d366;
+            color: #fff;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Container Layout */
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Category Section */
+        .section-title {
+            text-align: center;
+            color: #880e4f;
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background-color: #ffb300;
+            display: block;
+            margin: 8px auto 0;
+            border-radius: 2px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            border-top: 4px solid #880e4f;
+            text-align: center;
+        }
+        .card h3 {
+            color: #b71c1c;
+            margin-bottom: 12px;
+        }
+        .card ul {
+            list-style: none;
+            text-align: left;
+        }
+        .card ul li {
+            padding: 6px 0;
+            border-bottom: 1px id #f0f0f0;
+            font-size: 0.95rem;
+        }
+
+        /* Features Section */
+        .features {
+            background-color: #fff3f8;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+        .features-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+            text-align: center;
+        }
+        .feature-item {
+            flex: 1 1 200px;
+        }
+
+        /* Contact & Map Section */
+        .contact-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .contact-info h3 {
+            color: #880e4f;
+            margin-bottom: 15px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>अम्बे गिफ्ट एंड सुहाग भंडार</h1>
+        <p>आपकी सुंदरता, श्रृंगार और उपहारों का एक विश्वसनीय स्थान</p>
+        <div class="cta-buttons">
+            <a href="tel:7999820447" class="btn btn-call">📞 कॉल करें: 7999820447</a>
+            <a href="https://wa.me/917999820447?text=नमस्ते!%20मुझे%20आपकी%20दुकान%20के%20सामान%20के%20बारे%20में%20जानना%20है।" target="_blank" class="btn btn-whatsapp">💬 व्हाट्सएप पर मैसेज करें</a>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Products & Categories -->
+        <h2 class="section-title">हमारी मुख्य वैरायटी</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>💄 कॉस्मेटिक्स & सुहाग सामान</h3>
+                <ul>
+                    <li>✔ ब्रांडेड मेकअप प्रॉडक्ट्स</li>
+                    <li>✔ फैंसी चूड़ियां व कड़े</li>
+                    <li>✔ दुल्हन श्रृंगार किट</li>
+                    <li>✔ बिंदी, सिंदूर, मेहंदी आदि</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>🎁 आकर्षक गिफ्ट आइटम्स</h3>
+                <ul>
+                    <li>✔ बर्थ-डे व एनिवर्सरी उपहार</li>
+                    <li>✔ सुंदर फोटो फ्रेम व शो-पीस</li>
+                    <li>✔ बच्चों के खिलौने</li>
+                    <li>✔ कस्टमाइज्ड गिफ्ट्स</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>✨ फैंसी आर्टिफिशियल ज्वेलरी</h3>
+                <ul>
+                    <li>✔ ट्रेंडी नेकलेस सेट</li>
+                    <li>✔ फैंसी इयररिंग्स (झुमके)</li>
+                    <li>✔ पायल व बिछिया</li>
+                    <li>✔ पार्टी-वेयर एक्सेसरीज</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Special Highlights -->
+        <div class="features">
+            <h2 class="section-title">हमें क्यों चुनें?</h2>
+            <div class="features-list">
+                <div class="feature-item">
+                    <h4>उत्कृष्ट गुणवत्ता</h4>
+                    <p>बेहतरीन और ओरिजिनल क्वालिटी का सामान</p>
+                </div>
+                <div class="feature-item">
+                    <h4>वाजिब दाम</h4>
+                    <p>उचित व किफायती मूल्य</p>
+                </div>
+                <div class="feature-item">
+                    <h4>विशेष कलेक्शन</h4>
+                    <p>शादी-विवाह व त्यौहारों के लिए खास वैरायटी</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact and Location -->
+        <h2 class="section-title">दुकान का पता व संपर्क</h2>
+        <div class="contact-section">
+            <div class="contact-info">
+                <h3>📍 अम्बे गिफ्ट एंड सुहाग भंडार</h3>
+                <p><strong>पता:</strong> अशोक नगर चौक, सरकंडा, बिलासपुर, छत्तीसगढ़ - 495006</p>
+                <p><strong>मोबाइल:</strong> +91 7999820447</p>
+                <p><strong>गूगल मैप / जस्ट डायल:</strong> Google Map पर हमारा नाम सर्च करके आसानी से पहुंचें।</p>
+            </div>
+            <div class="map-embed">
+                <!-- Google Maps Embed Link -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14781.123456789!2d82.1500!3d22.0800!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDA0JzQ4LjAiTiA4MsKwMDknMDAuMCJF!5e0!3m2!1shi!2sin!4v1600000000000!5m2!1shi!2sin" 
+                    width="100%" 
+                    height="200" 
+                    style="border:0; border-radius: 8px;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+6    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 अम्बे गिफ्ट एंड सुहाग भंडार, सरकंडा, बिलासपुर। सर्वाधिकार सुरक्षित।</p>
+    </footer><!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>अम्बे गिफ्ट एंड सुहाग भंडार - बिलासपुर</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #fcf8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        /* Header Banner */
+        header {
+            background: linear-gradient(135deg, #b71c1c, #880e4f);
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* Navigation & Quick Actions */
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-call {
+            background-color: #ffb300;
+            color: #000;
+        }
+        .btn-whatsapp {
+            background-color: #25d366;
+            color: #fff;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Container Layout */
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Category Section */
+        .section-title {
+            text-align: center;
+            color: #880e4f;
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background-color: #ffb300;
+            display: block;
+            margin: 8px auto 0;
+            border-radius: 2px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            border-top: 4px solid #880e4f;
+            text-align: center;
+        }
+        .card h3 {
+            color: #b71c1c;
+            margin-bottom: 12px;
+        }
+        .card ul {
+            list-style: none;
+            text-align: left;
+        }
+        .card ul li {
+            padding: 6px 0;
+            border-bottom: 1px id #f0f0f0;
+            font-size: 0.95rem;
+        }
+
+        /* Features Section */
+        .features {
+            background-color: #fff3f8;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+        .features-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+            text-align: center;
+        }
+        .feature-item {
+            flex: 1 1 200px;
+        }
+
+        /* Contact & Map Section */
+        .contact-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .contact-info h3 {
+            color: #880e4f;
+            margin-bottom: 15px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>अम्बे गिफ्ट एंड सुहाग भंडार</h1>
+        <p>आपकी सुंदरता, श्रृंगार और उपहारों का एक विश्वसनीय स्थान</p>
+        <div class="cta-buttons">
+            <a href="tel:7999820447" class="btn btn-call">📞 कॉल करें: 7999820447</a>
+            <a href="https://wa.me/917999820447?text=नमस्ते!%20मुझे%20आपकी%20दुकान%20के%20सामान%20के%20बारे%20में%20जानना%20है।" target="_blank" class="btn btn-whatsapp">💬 व्हाट्सएप पर मैसेज करें</a>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Products & Categories -->
+        <h2 class="section-title">हमारी मुख्य वैरायटी</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>💄 कॉस्मेटिक्स & सुहाग सामान</h3>
+                <ul>
+                    <li>✔ ब्रांडेड मेकअप प्रॉडक्ट्स</li>
+                    <li>✔ फैंसी चूड़ियां व कड़े</li>
+                    <li>✔ दुल्हन श्रृंगार किट</li>
+                    <li>✔ बिंदी, सिंदूर, मेहंदी आदि</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>🎁 आकर्षक गिफ्ट आइटम्स</h3>
+                <ul>
+                    <li>✔ बर्थ-डे व एनिवर्सरी उपहार</li>
+                    <li>✔ सुंदर फोटो फ्रेम व शो-पीस</li>
+                    <li>✔ बच्चों के खिलौने</li>
+                    <li>✔ कस्टमाइज्ड गिफ्ट्स</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>✨ फैंसी आर्टिफिशियल ज्वेलरी</h3>
+                <ul>
+                    <li>✔ ट्रेंडी नेकलेस सेट</li>
+                    <li>✔ फैंसी इयररिंग्स (झुमके)</li>
+                    <li>✔ पायल व बिछिया</li>
+                    <li>✔ पार्टी-वेयर एक्सेसरीज</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Special Highlights -->
+        <div class="features">
+            <h2 class="section-title">हमें क्यों चुनें?</h2>
+            <div class="features-list">
+                <div class="feature-item">
+                    <h4>उत्कृष्ट गुणवत्ता</h4>
+                    <p>बेहतरीन और ओरिजिनल क्वालिटी का सामान</p>
+                </div>
+                <div class="feature-item">
+                    <h4>वाजिब दाम</h4>
+                    <p>उचित व किफायती मूल्य</p>
+                </div>
+                <div class="feature-item">
+                    <h4>विशेष कलेक्शन</h4>
+                    <p>शादी-विवाह व त्यौहारों के लिए खास वैरायटी</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact and Location -->
+        <h2 class="section-title">दुकान का पता व संपर्क</h2>
+        <div class="contact-section">
+            <div class="contact-info">
+                <h3>📍 अम्बे गिफ्ट एंड सुहाग भंडार</h3>
+                <p><strong>पता:</strong> अशोक नगर चौक, सरकंडा, बिलासपुर, छत्तीसगढ़ - 495006</p>
+                <p><strong>मोबाइल:</strong> +91 7999820447</p>
+                <p><strong>गूगल मैप / जस्ट डायल:</strong> Google Map पर हमारा नाम सर्च करके आसानी से पहुंचें।</p>
+            </div>
+            <div class="map-embed">
+                <!-- Google Maps Embed Link -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14781.123456789!2d82.1500!3d22.0800!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDA0JzQ4LjAiTiA4MsKwMDknMDAuMCJF!5e0!3m2!1shi!2sin!4v1600000000000!5m2!1shi!2sin" 
+                    width="100%" 
+                    height="200" 
+                    style="border:0; border-radius: 8px;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 अम्बे गिफ्ट एंड सुहाग भंडार, सरकंडा, बिलासपुर। सर्वाधिकार सुरक्षित।</p>
+    </footer>
+
+</body>
+</html>
+
+</body>
+</html> html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>
+    Hello, World!
+  </h1>
+</body>
+</html>
